@@ -1,0 +1,27 @@
+.avatar {
+    position: relative;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .avatar-initials {
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+  
+  .avatar-status {
+    position: absolute;
+    bottom: -0.1rem;
+    right: -0.1rem;
+    width: 0.6rem;
+    height: 0.6rem;
+  }
+  

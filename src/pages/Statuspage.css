@@ -1,0 +1,47 @@
+.statuspage-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem;
+    width: 100%;
+    background-color: #f5f5f5;
+  }
+  
+  .statuspage-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .statuspage-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 1rem;
+  }
+  
+  .statuspage-header-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .statuspage-header-menu {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .icon-small {
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .statuspage-count {
+    color: #888888;
+  }
+  
+  .statuspage-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
